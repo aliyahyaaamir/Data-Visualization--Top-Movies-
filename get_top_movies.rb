@@ -9,8 +9,8 @@ page = Nokogiri::HTML(open("http://www.rottentomatoes.com/top/bestofrt/?year=201
 movies = page.css('.content_body.clearfix > table.left.rt_table tr')
 
 movie_array = []
-header = ['title', 'rating']
-movie_array << header
+# header = ['title', 'rating']
+# movie_array << header
 
 movies.each do |row|
 	# movie.each do |a|

@@ -23,9 +23,8 @@ File.open('divs_for_top_movie.html', 'w') do |html|
     end
 
 
-	movie_array.each do |row|
-		
- 	  div_height = (row[0]).to_s
+	movie_array.each do |row|	
+ 	  div_height = (row[1]).to_s
     html.write("<div class='bar_wrapper' data-name='" + row[0] + "'>\n")
     html.write("  <div class='bar' style='height:" + div_height + "%;'></div>\n")
     html.write("</div>\n")
