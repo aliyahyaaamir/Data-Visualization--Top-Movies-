@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+
+/*	background-color: black;
+	width : 992 px;
+	height: 100px;
+	margin: 0 auto;*/
+
+	height: 500px;
+	width: intrinsic;
+	background-color: red;
+	margin: 0 auto;
+	clear: right;
+
+}
+
+.bar {
+	background-color: white;
+	width: 100%;
+}
+
+	.bar_wrapper {
+	width: 10px;
+	float: left;
+	height: 100%;
+}
