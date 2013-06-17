@@ -24,9 +24,16 @@ body {
 
 	height: 500px;
 	width: intrinsic;
-	background-color: red;
+	background-color: #00FFFF;
 	margin: 0 auto;
 	clear: right;
+	opacity:0.5;
+
+}
+
+#container:hover {
+
+	opacity: 1.0;
 
 }
 
