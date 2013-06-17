@@ -3,6 +3,18 @@
 	padding: 0;
 }
 
+h1 {
+
+	color: white;
+	position: relative;
+	left: 350px;
+}
+
+body {
+
+	background-color: black;
+
+}
 #container {
 
 /*	background-color: black;
